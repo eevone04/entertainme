@@ -1,0 +1,1 @@
+document.getElementById('watchlist').innerHTML='No items yet';

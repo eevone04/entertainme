@@ -1,0 +1,1 @@
+function login(){localStorage.setItem('user','1');location='index.html';}
