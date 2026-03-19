@@ -1,2 +1,70 @@
-body{background:#0f0f1a;color:white;}
-.card{background:#1e1e2f;border-radius:12px;cursor:pointer;}
+body {
+    background: linear-gradient(to right,
+            #020617 0%,
+            #3b0764 50%);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+}
+
+.custom-navbar {
+    background: rgba(2, 6, 23, 0.7);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(to right, #ff4df0, #8b5cf6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-icon {
+    font-size: 22px;
+}
+
+.nav-link {
+    color: #9ca3af;
+    margin: 0 8px;
+    padding: 8px 14px;
+    border-radius: 10px;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.nav-link i {
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.nav-link.active {
+    background: linear-gradient(to right,
+            rgba(255, 77, 240, 0.2),
+            rgba(139, 92, 246, 0.2));
+    color: #ff4df0 !important;
+}
+
+.nav-link.active i {
+    color: #ff4df0 !important;
+}
+
+.btn-logout {
+    border: 1px solid rgba(255, 77, 240, 0.4);
+    color: #ff4df0;
+    border-radius: 10px;
+    padding: 6px 16px;
+    background: transparent;
+    transition: 0.3s;
+}
+
+.btn-logout:hover {
+    background: rgba(255, 77, 240, 0.1);
+}
